@@ -1,9 +1,3 @@
-import Ember from 'ember';
+import CoreComponentsTabBar from 'ember-components/components/tab-bar';
 
-export default Ember.Component.extend({
-  actions: {
-    select(tab) {
-      this.sendAction('select', tab);
-    }
-  }
-});
+export default CoreComponentsTabBar.extend();
